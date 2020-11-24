@@ -11,7 +11,7 @@ def style(_):
     style method
     :return:
     '''
-    cmd = r"pycodestyle ..\signal-interpreter-server-main"
+    cmd = f"pycodestyle signal_interpreter_server"
     subprocess.call(cmd, shell=True)
 
 
